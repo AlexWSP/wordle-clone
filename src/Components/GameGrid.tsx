@@ -20,7 +20,7 @@ export const GameGrid = ({
     }
 
     return (
-        <div className="grid grid-rows gap-1 mx-auto w-[300px] mt-[100px]">
+        <div className="grid grid-rows gap-1 mx-auto w-[300px] mt-[50px]">
             {guesses.map((guess, i) => (
                 <NonEmptyRow
                     key={i}

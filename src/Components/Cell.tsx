@@ -9,6 +9,8 @@ export const Cell = ({ c, charStatus }: CellProps) => {
         if (charStatus === 'correctPosition') {
             defaultClassName += " bg-sky-500"
         } else if (charStatus === 'incorrectPosition') {
+            defaultClassName += " bg-yellow-500"
+        } else {
             defaultClassName += " bg-zinc-500"
         }
     }

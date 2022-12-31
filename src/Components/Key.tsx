@@ -8,7 +8,7 @@ export const Key = ({ k, handleClick }: KeyProps) => {
     if (k === "ENTER") {
         className += " w-12"
     } else if (k === "DELETE") {
-        className += " w-20"
+        className += " w-14"
     } else {
         className += " w-8"
     }
